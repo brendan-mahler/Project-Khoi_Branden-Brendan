@@ -17,9 +17,9 @@ public class Converter {
 	}
 	
 	public static void main(String[] args) {
-		//TODO: The first student will implement this method
-		//Call celsiusToFahrenheit to convert 180 Celsius to Fahrenheit value
-		//Call fahrenheitToCelsius to convert 250 Fahrenheit to Celsius value
+		Converter tempConvert = new Converter();
+		System.out.println(tempConvert.celsiusToFahrenheit(180));
+		System.out.println(tempConvert.fahrenheitToCelsius(250));
 		
 	}
 	
