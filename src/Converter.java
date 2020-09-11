@@ -26,10 +26,7 @@ public class Converter {
 	public static void main(String[] args) {
 		Converter convert = new Converter();
 		System.out.println(convert.celsiusToFahrenheit(180));
-		System.out.println(convert.fahrenheitToCelsius(250));
-
-		System.out.println(convert.kilometersToMiles(30));
-		
+		System.out.println(convert.fahrenheitToCelsius(250));		
 	}
 	
 }
