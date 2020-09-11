@@ -2,7 +2,7 @@ public class Converter {
 	//Your names go here:
 	/*
 	 * @Author: 
-	 *
+	 *			Khoi Ngo
 	 *
 	 */
 	
@@ -13,7 +13,7 @@ public class Converter {
 	
 	private double fahrenheitToCelsius(double F) {
 		//TODO: The second student will implement this method
-		return 0;
+		return (F-32)*5/9;
 	}
 	
 	public static void main(String[] args) {
