@@ -24,9 +24,11 @@ public class Converter {
 	}
 	
 	public static void main(String[] args) {
-		Converter tempConvert = new Converter();
-		System.out.println(tempConvert.celsiusToFahrenheit(180));
-		System.out.println(tempConvert.fahrenheitToCelsius(250));
+		Converter convert = new Converter();
+		System.out.println(convert.celsiusToFahrenheit(180));
+		System.out.println(convert.fahrenheitToCelsius(250));
+
+		System.out.println(convert.kilometersToMiles(30));
 		
 	}
 	
