@@ -17,6 +17,11 @@ public class Converter {
 		//TODO: The second student will implement this method
 		return (F-32)*5/9;
 	}
+
+	private double kilometersToMiles(double K) {
+		//TODO: The second student will implement this method
+		return K * 0.62137;
+	}
 	
 	public static void main(String[] args) {
 		Converter tempConvert = new Converter();
