@@ -17,12 +17,16 @@ public class Converter {
 		//TODO: The second student will implement this method
 		return (F-32)*5/9;
 	}
+
+	private double kilometersToMiles(double K) {
+		//TODO: The second student will implement this method
+		return K * 0.62137;
+	}
 	
 	public static void main(String[] args) {
-		Converter tempConvert = new Converter();
-		System.out.println(tempConvert.celsiusToFahrenheit(180));
-		System.out.println(tempConvert.fahrenheitToCelsius(250));
-		
+		Converter convert = new Converter();
+		System.out.println(convert.celsiusToFahrenheit(180));
+		System.out.println(convert.fahrenheitToCelsius(250));		
 	}
 	
 }
